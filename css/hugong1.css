@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.pingtai1{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 48px;
+	background-color: #5fc0cd;
+	z-index: 1;
+	text-align: center;
+}
+.jiantou{
+	position: absolute;
+	left: 10px;
+	height: 16px;
+	padding: 16px;
+	z-index: 2;
+}
+.wenben1{
+	color: white;
+	line-height: 48px;
+}
+.shang{
+	margin-top: 48px;
+	background-image: url(../src/background.jpg) ;
+	background-size: cover; 
+	height: 180px;
+}
+.touxiang{
+	height: 100px;
+	position: absolute;
+	left: 20px;
+	top: 88px;
+}
+.name{
+	position: absolute;
+	left: 140px;
+	top: 108px;
+	color: white;
+	font-size: 18px;
+	white-space: nowrap;
+}
+.dizhi{
+	height: 12px;
+	position: absolute;
+	left: 143px;
+	top: 145px;
+}
+.didian{
+	font-size: 10px;
+	color: white;
+	position: absolute;
+	top: 143px;
+	left: 160px;
+	white-space: nowrap;
+}
+.biao{
+	list-style: none;
+}
+.biaoti{
+	padding: 10px 0;
+	margin: 1px;
+	border-bottom: 0.1px solid #e1e5e7;
+	font-size: 20px;
+}
+.shu{
+	color: #5fc0cd;
+	font-weight: 130;
+	margin-right: 5px;
+}
+.tedian{
+	margin-left: 25px;
+	padding: 20px 0;
+	border-bottom: 0.1px solid #e1e5e7;
+}
+.star1{
+	height: 12px;
+	margin: 5px;
+	vertical-align: -5px;
+}
+.star2{
+	height: 12px;
+	margin: 5px;
+	vertical-align: -5px;
+	border-left: 1px solid #e1e5e7;
+	padding-left: 5px;
+}
+.nianxian,
+.nianxian1{
+	margin-left: 25px;
+	padding: 20px 0;
+	border-bottom: 0.1px solid #e1e5e7;
+}
+.congyenianxian,
+.ziwo{
+	border-right: 1px solid #e1e5e7;
+	padding-right: 10px;
+}
+.nian,
+.xiaoshi{
+	padding-left: 6px;
+}
+.xiaoshi{
+	color: red;
+}
+.nianxian1{
+	display: flex;
+	align-items: center;
+}
+.ziwo{
+	display: inline-flex;
+	white-space: nowrap;
+}
+.duanluo{
+	display: inline-flex;
+	margin: 0 10px;
+	font-size: 14px;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: white;
+	text-align: center;
+}
+.liuyan,
+.tel{
+	text-align: center;
+	border-style:none;
+	outline: none;
+	border-radius: 5px;
+	padding: 15px 4%;
+	margin: 1%;
+	width: 45%;
+	border:1px solid;
+}
+.liuyan{
+	color: #5fc0cd;
+	background-color: white;
+	border-color: #5fc0cd;
+}
+.tel{
+	color: white;
+	background-color: #5fc0cd;
+	border-color: white;
+}
